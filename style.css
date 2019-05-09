@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:500i,600i');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+    color: #F95899;
+
+}
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 600i; 
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    background: rgba(252, 177, 206, 0.5)!important;
+}
+
+.navbar-brand img{
+    height: 3rem;
+    
+}
+.navbar-nav li {
+    padding-right: 3rem;
+}
+
+.home-inner {
+    background-image: url(img/ladingbackground.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+
+}
+
+.caption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    top: 75%;
+    z-index: 1; 
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+.caption h4 {
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.btn-lg { 
+    border-width: small;
+    border-radius: 100;
+    
+    
+}
+
+.col-12 {
+    text-align: center; 
+} 
+
+.col-12 h1 {
+    color: mediumpurple;
+    padding-bottom: 1rem;
+}
+
+.col-12 p {
+    font-size: 1.2rem;
+    padding-bottom: 3rem;
+    
+}
+    
+
+.tools img{
+    height: 4.5rem;
+}
+
+.tools h4 {
+    color: mediumpurple;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    
+}
+
+
+.socialskills img {
+    height: 4.5rem;
+}
+
+.socialskills h4 {
+    color: mediumpurple;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    }
+
+.degree img{
+   height: 4.5rem;
+}
+
+.degree h4 {
+    color: mediumpurple;
+    font-size: 1.2rem;
+    padding-top: 1.5rem;
+    }
+    
+.tools p {
+    font-size: 1rem;
+    color: gray;
+    margin: 2rem;
+}
+
+.socialskills p {
+    font-size: 1rem;
+    color: gray;
+    margin: 2rem;
+}
+
+.degree p {
+   font-size: 1rem;
+    color: gray;
+    margin: 2rem; 
+}
+
+.col-sm-6 {
+    align-content: center;
+    padding-left: 10rem;
+  
+}
+
+.text1 p{
+    align-items: center;
+    padding: 3rem, 3rem, 3rem, 3rem;
+}
+
+.col-sm-12 {
+    align-content: center;
+}
+
+#carouselExampleIndicators {
+    padding-top: 3rem;
+}
+
+
+.jumbotron{
+    margin-bottom: 0;
+    padding: 5rem 0 3.5rem;
+    border-radius: 0;
+}
+
+
+
+/*---PORTFOLIO SECTION---*/
+
+.fixed {
+    background-image: url(img/sectiontresbackground.png);
+    z-index: -1;
+}
+
+.dark {
+    background-color: rgba(0, 0, 0, 0.50);
+    padding-bottom: 6rem;
+}
+
+
+.fixed-background h1{
+    padding-top: 5rem;
+    padding-bottom: 0;
+    color: aliceblue;
+    
+}
+.fixedbackground p{
+    padding-top: 0rem;
+    padding-bottom: 0;
+}
+
+
+.clients img{
+    width: 100%;
+}
+
+blockquote .svg-inline--fa{
+    color: #FCB1CE;
+    margin: 1rem;
+}
+.clients-hr {
+    border-top: .05rem solid #FCB1CE;
+}
+
+footer {
+    background-color: #FCB1CE;
+    color: white;
+    padding: 2rem 0 2rem;
+    
+   
+}
+
+footer img {
+    height: 3.5rem;
+    margin: 1.5rem .5rem;
+}
+
+footer a{
+    color: white;
+}
+
+footer svg.svg-inline--fa{
+    font-size: 2rem;
+    margin: 1.2rem .8rem 0 0;
+}
+footer svg.svg-inline--fa:hover {
+    color: #9430E0;
+}
+
+hr.socket{
+    width: 100%;
+    border-top: .1rem solid #9430E0;
+    margin-top: 3rem;
+}
+{}
+
+/*============ BOOTSTRAP BREAK POINTS:
+
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+=============*/
